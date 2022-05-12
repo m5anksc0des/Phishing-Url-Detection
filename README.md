@@ -7,7 +7,7 @@ This repository is a tutorial explaining how to train a simple decision tree cla
 # Installation
 To get started, you should first clone this repository by running the following command from a UNIX terminal.
 
-git clone https://github.com/npapernot/phishing-detection
+~~~git clone https://github.com/npapernot/phishing-detection~~~
 This will download the code that trains the phishing detector, as well as the training data required for that operation.
 
 You should also install scikit-learn, which is a collection of tools for machine learning written in Python. You can find instructions on how to install it here. On a UNIX machine configured with pip, the simplest way is to run:
