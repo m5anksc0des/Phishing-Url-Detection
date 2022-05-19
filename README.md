@@ -2,7 +2,7 @@
 An algorithm modified into a system which can scan the URL and can predict whether it is safe or maliciously prone to phishing attacks.
 
 # Detecting phishing websites using a decision tree
-This repository is a tutorial explaining how to train a simple decision tree classifier to detect websites that are used for phishing. Typically, phishing websites disguise as trustworthy websites in order to gain the trust of their victims, and malicious parties use them to obtain sensitive information from their victims: e.g., passwords or credit card numbers. In this tutorial, we train a decision tree to detect such websites, with a success rate of 90.5%.
+This repository deals with explaining how to train a simple decision tree classifier to detect websites that are used for phishing. Typically, phishing websites disguise as trustworthy websites in order to gain the trust of their victims, and malicious parties use them to obtain sensitive information from their victims: e.g., passwords or credit card numbers. In this tutorial, we train a decision tree to detect such websites, with a success rate of 90.5%.
 
 # Installation
 To get started, you should first clone this repository by running the following command from a UNIX terminal.
