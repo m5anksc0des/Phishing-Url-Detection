@@ -10,7 +10,7 @@ To get started, you should first clone this repository by running the following 
 ``` git clone https://github.com/npapernot/phishing-detection ```
 This will download the code that trains the phishing detector, as well as the training data required for that operation.
 
-You should also install``` scikit-learn ```, which is a collection of tools for machine learning written in Python. You can find instructions on how to install it here. On a UNIX machine configured with pip, the simplest way is to run:
+You should also install``` scikit-learn ```, which is a collection of tools for machine learning written in Python. You can find instructions on how to install it [here](https://scikit-learn.org/stable/install.html). On a UNIX machine configured with pip, the simplest way is to run:
 
 ```pip install -U scikit-learn```
 Once you have installed scikit-learn, you can check whether the library is correctly setup by typing the following in a Python shell:
@@ -18,7 +18,7 @@ Once you have installed scikit-learn, you can check whether the library is corre
 If the command runs with no error, you are ready to train the phishing detector!
 
 # Phishing Website Dataset
-In this tutorial, we use a dataset of phishing website publicly available on the machine learning repository provided by UCI. You don't have to download the dataset yourself as it is included directly in this repository (```dataset.csv``` file) and was downloaded on your machine when you cloned this repository.
+In this tutorial, we use a dataset of phishing website publicly available on the [machine learning repository](https://archive.ics.uci.edu/ml/datasets/Phishing+Websites) provided by UCI. You don't have to download the dataset yourself as it is included directly in this repository (```dataset.csv``` file) and was downloaded on your machine when you cloned this repository.
 
 The dataset was collected by analyzing a collection of 2456 websites among which some were used for phishing and others not. For each website included in the dataset, 30 attributes are given. You can find a list here. The list includes for instance the URL length, whether the website uses pop-up windows or Iframes, or how old the domain registration is.
 
