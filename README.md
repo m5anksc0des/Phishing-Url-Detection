@@ -25,7 +25,7 @@ The dataset was collected by analyzing a collection of 2456 websites among which
 Each website in the dataset is labeled by -1 if it is not a phishing website and by 1 if it is a website used for phishing.
 
 # Training the decision tree to detect phishing website
-You can find the code that trains the decision tree in the ```decision_tree.py``` file. To run the code, simply execute it in a terminal:
+You can find the code that trains the decision tree in the ```[decision_tree.py](https://github.com/sankitanitdgp/Phishing-Url-Detection/blob/main/decision_tree.py)``` file. To run the code, simply execute it in a terminal:
 
 ```python decision_tree.py``` 
 
@@ -39,4 +39,4 @@ Model training completed.
 Predictions on testing data computed.
 The accuracy of your decision tree on testing data is: 0.906129210381```
 
-To understand how this was done, you can read the line by line comments in the decision_tree.py file.
+To understand how this was done, you can read the line by line comments in the [decision_tree.py](https://github.com/sankitanitdgp/Phishing-Url-Detection/blob/main/decision_tree.py) file.
